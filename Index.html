@@ -2,59 +2,89 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Open This Letter ❤️</title>
+  <title>To My Love 💜</title>
   <style>
     body {
-      background: #fff0f5;
-      font-family: 'Courier New', monospace;
+      background: #f3e5f5;
+      font-family: 'Georgia', serif;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
-      margin: 0;
+      padding: 30px;
       text-align: center;
+      color: #4a148c;
     }
 
-    .letter-container {
-      border: 2px solid #d6336c;
-      padding: 20px;
-      background: #fff;
-      border-radius: 10px;
-      display: none;
-      margin-top: 20px;
-      max-width: 500px;
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
     }
 
-    button {
-      background-color: #d6336c;
+    .button {
+      background-color: #ba68c8;
       color: white;
       border: none;
-      padding: 10px 20px;
+      padding: 12px 24px;
       font-size: 1.2em;
-      border-radius: 5px;
+      border-radius: 8px;
       cursor: pointer;
       margin-top: 20px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    .letter {
+      display: none;
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      border: 2px solid #ce93d8;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      max-width: 700px;
+      margin-top: 25px;
     }
 
     .rose {
-      margin-top: 20px;
-      width: 100px;
+      margin-top: 25px;
+      width: 120px;
       height: auto;
+    }
+
+    .heart {
+      font-size: 2em;
+      color: #ec407a;
+    }
+
+    p {
+      font-size: 1.15em;
+      line-height: 1.6;
     }
   </style>
 </head>
 <body>
-  <h1>💌 A Special Letter for You</h1>
-  <button onclick="openLetter()">Open the Letter</button>
+  <h1>For the Love of My Life 💜</h1>
+  <button class="button" onclick="openLetter()">Open Your Letter 💌</button>
 
-  <div class="letter-container" id="letter">
-    <p>My Love,</p>
+  <div class="letter" id="letter">
+    <p>My dearest love,</p>
     <p>
-      From the moment I met you, my world changed. Every day with you is a blessing,
-      and I just wanted you to know how deeply I love you. You're my heart, my peace, and my forever. 💖
+      Every moment with you feels like a gentle melody the universe composed just for my heart.
+      You are the light that makes my days brighter, the peace that calms my storms,
+      and the warmth that holds me together when the world feels cold.
     </p>
-    <p>— Yours Always</p>
+    <p>
+      I fall in love with you all over again every single day — with your smile, your soul,
+      your kindness, your strength, and the way you make everything around you bloom.
+      If I could hold one thing forever, it would be the feeling of your hand in mine.
+    </p>
+    <p>
+      You’re not just my partner. You’re my safe place, my dream, my home, and the most beautiful chapter of my life.
+      No matter what life brings, I want to face it with you — laughing, loving, growing, always.
+    </p>
+    <p>
+      I love you more than words can ever truly say. Forever and always. 💜
+    </p>
+    <p class="heart">— Yours, with all my heart 💕</p>
     <img class="rose" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Rose_icon.svg/1024px-Rose_icon.svg.png" alt="Rose">
   </div>
 
